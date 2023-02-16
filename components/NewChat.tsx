@@ -6,15 +6,16 @@ import { useSession } from "next-auth/react";
 import { useRouter } from "next/navigation";
 import { db } from "../firebase";
 
-function NewChat({ id }: Props) {
+function NewChat() {
   const router = useRouter()
   const { data: session } = useSession();
 
   const createNewChat = async () => {
       const doc = await addDoc(
         collection(db, "users", session?.user?.email!, "chats"), {
-        userId: session?.user?.email!,
-        createdAt: serverTimestamp(),
+          messages: [],
+          userId: session?.user?.email!,
+          createdAt: serverTimestamp(),
      }
     );
 
@@ -22,9 +23,9 @@ function NewChat({ id }: Props) {
   }
 
   return (
-    <div onClick={createNewChat} className="border-gray-700 border chatRow">
+    <div onClick={createNewChat} className="border-gray-700 border chatRow items-center justify-center">
         <PlusIcon className="h-4 w-4" />
-        <p>New Chat</p>
+        <p className="hidden md:inline-flex flex-1">New Chat</p>
     </div>
   )
 }
