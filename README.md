@@ -6,7 +6,7 @@ This is a messenger app powered by ChatGPT API for returning answers. User authe
 Screenshot of application:
 ![Screenshot](./screenshot.png)
 
-Live link, [TBD]()
+Live link, [here](https://chatgptmessenger-dtemgucuv-nard1n.vercel.app)
 
 ## Table of Contents
 
