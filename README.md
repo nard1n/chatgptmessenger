@@ -1,27 +1,39 @@
-# Next.js + Tailwind CSS Example
+# Messenger Application Returning Answers from ChatGPT
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.2)](https://tailwindcss.com/blog/tailwindcss-v3-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+This is a messenger app powered by ChatGPT API for returning answers. User authentication connects to Firebase Auth. Built using Next.js 13. Among technologies used are Typescript, Next.js 13 (powered by React), Firebase, Firestore, TailWind css, ChatGPT API, NextAuth, Firebase Auth, SWR in data fetching, React Firebase hooks, Server components, Firebase Admin. Deployed and hosted on Vercel.
 
-## Deploy your own
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+Screenshot of application:
+![Screenshot](./screenshot.png)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+Live link, [here](https://chatgpt-sage.vercel.app/)
 
-## How to use
+## Table of Contents
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
+* [Installation](#Installation)
+* [Usage](#Usage)
+* [Contributing](#Contributing)
+* [Tests](#Tests)
+* [License](#License)
+* [Questions](#Questions)
 
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-```
+## Installation
+Feel free to clone the repo or reference the code and simply run it in your browser.
 
-```bash
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
+## Usage
+Great for practicing various web technologies.
 
-```bash
-pnpm create next-app --example with-tailwindcss with-tailwindcss-app
-```
+## Contributing
+If you would like to add anything, please reach out.
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+## Tests
+n/a
+
+## License
+This project is released under MIT opensource license:
+https://opensource.org/licenses/MIT
+
+## Questions
+For more about my work, check out my Github profile: https://github.com/nard1n
+
+If you have any questions and would like to chat, please feel free to send me an email directly to nardincodes@gmail.com
